@@ -639,8 +639,8 @@
 	color:#ffffff;
 	background: #eb874f;
 	border-radius:6px;
-	-moz-border-radius:6px
-	-webkit-border-radius :6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
 	-ms-border-radius:6px;
 	-o-border-radius: 6px;
 	padding:1px 12px;
@@ -1421,7 +1421,10 @@ span.meta-date{
 
 /*iPad lanscape*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+	input, textarea{
+        -webkit-appearance: none;
+        -webkit-border-radius:0;
+    }
 	#map{height:300px;}
 	.address-info i{margin-left:-45px;}
 	.address-info p{margin:0 auto;padding-bottom:20px}
@@ -1436,7 +1439,10 @@ span.meta-date{
 
 /* Tablet Portrait size -> standard 960 */
 @media only screen and (min-width: 768px) and (max-width: 1000px) {
-	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+	input, textarea{
+        -webkit-appearance: none;
+        -webkit-border-radius:0;
+    }
 	.nopr {padding-right: 15px;}
 	.main-nav.tabbed ul li{float:left;width:25%;border-right:1px solid #26292e;border-bottom:none;}
 	.main-nav.tabbed ul li:last-child{border-right:none;border-bottom:none;}
@@ -1459,7 +1465,10 @@ span.meta-date{
 
 /* Mobile Landscape Size -> Tablet Portrait size*/
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+    input, textarea{
+        -webkit-appearance: none;
+        -webkit-border-radius:0;
+    }
 	.nopr {padding-right: 15px;}
 	.main-nav.tabbed ul li{float:left;width:25%;border-right:1px solid #26292e;border-bottom:none;}
 	.main-nav.tabbed ul li a{font-size:0;}
@@ -1492,7 +1501,10 @@ span.meta-date{
 
 /* Mobile Portrait Size -> Mobile Landscape Size */
 @media only screen and (max-width:479px) {
-	input, textarea{-webkit-appearance: none;-webkit-border-radius:0;}
+	input, textarea{
+        -webkit-appearance: none;
+        -webkit-border-radius:0;
+    }
 	.nopr {padding-right: 15px;}
 	.main-nav.tabbed, .main-nav.tabbed li {background: #33373d;}
 	.main-nav.tabbed ul li{float:left;width:25%;border-right:1px solid #26292e;border-bottom:none;}
