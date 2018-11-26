@@ -157,8 +157,8 @@
 	color:#ffffff;
 	opacity:.95;
 	font-family: "open_sans",Arial,sans-serif;
-	padding: 0 15px 0px 30px;
-	font-size:11px;
+	padding: 0 60px 0px 10px;
+	font-size:10px;
 	display:block;
 	text-transform:uppercase;
 }
@@ -166,7 +166,7 @@
 
 
 .img-profile .name-profile span sup{
- 	font-size: 8px;
+ 	font-size: 5px;
     line-height: 5px;
 }
 
